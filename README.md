@@ -12,11 +12,26 @@ $ npm install --save row2arr
 
 ## Usage
 
+### readRow2Arr
+
 ```js
 var row2arr = require('row2arr');
 
-row2arr('Rainbow');
+row2arr.readRow2Arr(file, function (err, arr) {
+        console.log(arr);
+})
 ```
+
+### readRow2ArrSync
+
+```js
+var row2arr = require('row2arr');
+
+var arr = row2arr.readRow2ArrSync(file);
+
+console.log(arr);
+```
+
 
 
 ## License
