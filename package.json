@@ -1,0 +1,38 @@
+{
+  "name": "row2arr",
+  "version": "1.0.0",
+  "description": "read row to arr module",
+  "author": {
+    "name": "JiTae, Kim",
+    "email": "kimshinelove@gmail.com"
+  },
+  "repository": "kimshinelove/row2arr",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "row2arr",
+    "node",
+    "fs",
+    "array",
+    "row"
+  ],
+  "dependencies": {
+    "fs-extra": "^0.18.3"
+  },
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jscs": "^1.8.0",
+    "grunt-mocha-cli": "^1.12.0",
+    "jshint-stylish": "^1.0.1",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.1.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
